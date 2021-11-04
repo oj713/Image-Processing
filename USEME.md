@@ -1,3 +1,7 @@
+Input method is determined at runtime by command line arguments: 
+* -script FILENAME : loads and runs the text commands stored in script at given file location
+* -text : loads text-based view
+* -interactive : loads GUI view 
 
 **SUPPORTED COMMANDS**
 
