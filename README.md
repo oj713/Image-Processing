@@ -1,26 +1,21 @@
-Please see the USEME for information on how to use the GUI.
-We did not attempt any extra credit.
+#Image Processing Application#
 
-Screenshot of working GUI is named exampleGUI.png
+This project is an image processing application that can save and load multilayered image projects and apply filters to images. 
 
-Working script files for the jar are JarCommands1.txt and JarCommands2.txt
+Capabilities: 
+* Can apply blur, sepia, monochrome, and sharpen filters onto images. 
+* Can save load ppm, jpg, and png images. 
+* Can create projects with multiple layers and toggle visibility for each layer.
+* Can save the project as the topmost visible image in ppm, jpg, or png format.  
+* Can save the project as a text file that can later be loaded, preserving all layers of the project. 
+* Supports three different input methods. 
+    * text: give commands to project via console input. No displayed image, but provides confirmation/error prompts. 
+    * script: load a given script file of text commands and execute. 
+    * interactive: loads the GUI interface that exposes all features of the application through menus. Displays the image. 
 
-** DESIGN CHANGES **
-* HW 6's controller had the view hardcoded into the program. For this homework, 
-  we decoupled the view and controller by creating the IView interface and using delegation. 
-  This design change is necessary to allow for flexibility in choosing a view for the program. 
-  To implement this change, we split IImageController's processCommands() method into two separate
-  methods - start() and processCommand(String command). This design change was necessary in order
-  to properly decouple processing commands from getting them (which is the view's job).
-* Creation of IGuiView, GUIView, and GUIImageController. We created GUIImageController 
-  and IGUIView because the GUI required view information that a text based view did not.
-  This design change also necessitated the creation of AbstractController, as the processing
-  command code was common across both controllers. 
-* The file processing classes were modified to accept an absolute path rather than a file
-  assumed to be in the resources/ folder. This design change was necessary because the GUI view
-  did not require files to be located in the resources folder, and it actually  
-  simplified the complexity of the file processing methods.
-* All other classes remained unchanged.   
+Please see the USEME for information on how to use the GUI/text-based interface.
+
+Please see the application-screenshots folder for screenshots of the application. 
 
 **VIEW**
 * IView
@@ -72,15 +67,7 @@ Working script files for the jar are JarCommands1.txt and JarCommands2.txt
 
 **IMAGE**
 * IImage interface
-  * This interface represents the different operations done onto images like: 
-      * applyKernel - applies a 2D array of numbers onto the pixels of an image to filter it. 
-      * applyLCT - applies a color transformation onto the pixels by linearly combining rgb values.
-      * Equals - used to aid with testing.
-      * Hashcode - used to aid with testing.
-      * getWidth - retrieves the width of an image.
-      * getHeight - retrieves the height of an image.
-      * getPixels - retrieves the number of pixels in an image. 
-      * getMaxValue - represents the maximum value of a pixel.
+  * This interface represents the different operations done onto images.
 * CheckerboardImage class
   * This class allows for programattic construction of checkerboard images.
 * Image1D class
