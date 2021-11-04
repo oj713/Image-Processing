@@ -1,8 +1,8 @@
-#Image Processing Application#
+# Image Processing Application #
 
 This project is an image processing application that can save and load multilayered image projects and apply filters to images. 
 
-Capabilities: 
+**Capabilities:** 
 * Can apply blur, sepia, monochrome, and sharpen filters onto images. 
 * Can save load ppm, jpg, and png images. 
 * Can create projects with multiple layers and toggle visibility for each layer.
