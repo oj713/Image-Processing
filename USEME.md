@@ -1,7 +1,9 @@
-Input method is determined at runtime by command line arguments: 
-* -script FILENAME : loads and runs the text commands stored in script at given file location
-* -text : loads text-based view
-* -interactive : loads GUI view 
+The main method that executes the program is located at src/cs3500/hw05/control/Main.java
+
+Input method for the program is determined at runtime by command line arguments: 
+* "-script FILENAME" : loads and runs the text commands stored in script at given file location
+* "-text" : loads text-based view
+* "-interactive" : loads GUI view 
 
 **SUPPORTED COMMANDS**
 
