@@ -17,6 +17,9 @@ Please see the USEME for information on how to use the GUI/text-based interface.
 
 Please see the application-screenshots folder for screenshots of the application. 
 
+# Design Details #
+This project was completed as coursework for CS3500: Object Oriented Design. It was created using the Model-View-Controller design pattern. 
+
 **VIEW**
 * IView
     * this interface represents general operations necessary for a view in java. 
