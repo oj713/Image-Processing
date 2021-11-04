@@ -1,0 +1,19 @@
+create bottom
+create middle
+create top
+load layer resources/Flower.ppm
+blur
+sepia
+invisible
+current middle
+save project resources/ExampleProject1.txt
+load layer resources/Car.jpg
+monochrome
+load layer resources/Flower.png
+sharpen
+save image resources/Flower_Sharpened.png
+load project resources/ExampleProject1.txt
+current top
+visible
+save image resources/BlurSepiaFlower.ppm
+quit

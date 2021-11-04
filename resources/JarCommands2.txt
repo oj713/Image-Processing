@@ -1,0 +1,14 @@
+load project ExampleProject1.txt
+load layer BlurSepiaFlower.ppm
+sharpen
+invisible
+current bottom
+load layer Car.jpg
+create newTop
+current middle
+monochrome
+save image Car.jpg
+visible
+blur
+save project ExampleProject2.txt
+quit
