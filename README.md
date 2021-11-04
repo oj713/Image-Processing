@@ -15,7 +15,7 @@ This project is an image processing application that can save and load multilaye
 
 Please see the USEME for information on how to use the GUI/text-based interface.
 
-Please see the application-screenshots folder for screenshots of the application. 
+Please see the GUI-screenshots folder for screenshots of the application. 
 
 # Design Details #
 This project was completed as coursework for CS3500: Object Oriented Design. It was created using the Model-View-Controller design pattern. 
