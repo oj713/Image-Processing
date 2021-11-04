@@ -7,7 +7,7 @@ This project is an image processing application that can save and load multilaye
 * Can load ppm, jpg, and png images. 
 * Can create projects with multiple layers and toggle visibility for each layer.
 * Can save the project as the topmost visible image in ppm, jpg, or png format.  
-* Can save the project as a text file that can later be loaded, preserving all layers of the project. 
+* Can save and load the project as a text file that preserves all layers of the project. 
 * Supports three different input methods. 
     * text: give commands to project via console input. No displayed image, but provides confirmation/error prompts. 
     * script: load a given script file of text commands and execute. 
