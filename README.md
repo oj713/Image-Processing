@@ -2,6 +2,8 @@
 
 This project is an image processing application that can save and load multilayered image projects and apply filters to images. 
 
+Please see the USEME for information on how to use the program.
+
 **Capabilities:** 
 * Can apply blur, sepia, monochrome, and sharpen filters onto images. 
 * Can load ppm, jpg, and png images. 
@@ -12,8 +14,6 @@ This project is an image processing application that can save and load multilaye
     * text: give commands to project via console input. No displayed image, but provides confirmation/error prompts. 
     * script: load a given script file of text commands and execute. 
     * interactive: loads the GUI interface that exposes all features of the application through menus. Displays the image. 
-
-Please see the USEME for information on how to use the GUI/text-based interface.
 
 Please see the GUI-screenshots folder for screenshots of the application. 
 
