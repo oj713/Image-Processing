@@ -4,7 +4,7 @@ This project is an image processing application that can save and load multilaye
 
 **Capabilities:** 
 * Can apply blur, sepia, monochrome, and sharpen filters onto images. 
-* Can save load ppm, jpg, and png images. 
+* Can load ppm, jpg, and png images. 
 * Can create projects with multiple layers and toggle visibility for each layer.
 * Can save the project as the topmost visible image in ppm, jpg, or png format.  
 * Can save the project as a text file that can later be loaded, preserving all layers of the project. 
