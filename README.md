@@ -25,7 +25,7 @@ This project was completed as coursework for CS3500: Object Oriented Design. It 
     * this interface represents general operations necessary for a view in java. 
     These operations include getting commands and showing messages. 
 * TextBasedView
-    * This interface represents a text-based view for an image processing application. 
+    * represents a text-based view for an image processing application. 
       Input can either by programmatically entered by the user or loaded from a script, and
       output is printed to the system.
     * this class assumes that all images/projects to be saved and loaded are contained
@@ -34,7 +34,7 @@ This project was completed as coursework for CS3500: Object Oriented Design. It 
     * this interface extends IView and represents view operations specific to a GUI View. 
       These operations mainly consist of setters that let the GUI to display image information.
 * GUIView
-   * this interface represents a GUI view of an image processing application. It lets
+   * represents a GUI view of an image processing application. It lets
     the user modify an image through various menus and creates popups prompting for 
      extra information when necessary. 
 
